@@ -2,11 +2,11 @@
 void main()
 
 {
-int i,n=5;
+int i,j;
 
-for(i=1;i<=3;i++){
-printf("%d %d\n",i,n-i+1);
-printf("%d %d\n",i,n-i+1);
+for(i=1,j=5;i<=3,j>=3;i++,j--){
+    printf("%d%d\n",i,j);
+    printf("%d%d\n",i,j);
 }
 
 }
